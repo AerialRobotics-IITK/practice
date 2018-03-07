@@ -10,8 +10,14 @@ catkin_ws-----src----package_1------------text1.txt
 
 
                    ----package_3------------text3.txt
-                                ------------README.md```
+                                ------------README.md
+```
     
 
  2.  And needs to maintain a git flow like below.
-![alt text](https://raw.githubusercontent.com/AerialRobotics-IITK/practice/master/Git/a.png)
+![alt text](https://github.com/AerialRobotics-IITK/practice/blob/master/Git/a.png?raw=true)
+
+Preprocessor:
+* Create catkin_ws and src using mkdir 
+* Initialize git in src folder using git init 
+* And maintain the git flow with folders
