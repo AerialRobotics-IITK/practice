@@ -2,7 +2,7 @@
 ## Problem 1
 ### Playing Chess!
 
-There was a boy named "She" and a girl named "He". They were good friends. They once met and decided to play checkers. Unfortunaltely, none of them had a chekerboard. They discussed among themselves and decided to ask for help. Luckily, they found "You", who was taught OpenCV by "Us". "You" offered to help. Assume yourself to be "You". "You"/You are supposed to develop the said checkerboard. Take image width, image height and side of a single square cell form console and output a single image, image of the required chekerboard.
+There was a boy named "She" and a girl named "He". They were good friends. They once met and decided to play checkers. Unfortunately, none of them had a chekerboard. They discussed among themselves and decided to ask for help. Luckily, they found "You", who was taught OpenCV by "Us". "You" offered to help. Assume yourself to be "You". "You"/You are supposed to develop the said checkerboard. Take image width, image height and side of a single square cell form console and output a single image, image of the required chekerboard.
 
 #### Input:
 
@@ -18,5 +18,5 @@ Save the required image in a .jpg file named "board.jpg"
 
 ```512 512 64```
 
-Sample Output:
-
+#### Sample Output:
+![alt text](https://github.com/AerialRobotics-IITK/practice/blob/master/opencv_and_cplusplus/board.jpg?raw=true )
