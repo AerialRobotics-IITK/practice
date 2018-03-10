@@ -6,9 +6,9 @@ There was a boy named "She" and a girl named "He". They were good friends. They 
 
 #### Input:
 
-Single line containing 3 integer values image_width, image_height and side_length.
+Single line containing 3 integer values image_width, image_height and side_length of square.
 
-Note: Assume that image_width and image_height are both integer multiple of side_length.
+Note: Assume that image_width and image_height are both integer multiple of side_length of square.
 
 #### Output:
 
