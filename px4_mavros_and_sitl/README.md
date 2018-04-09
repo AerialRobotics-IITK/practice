@@ -28,7 +28,8 @@ So apply an PD controller on these things and generate ```attitude setpoints``` 
 
 ```python
 # s_des.npy need to be read by a python script 
-# It contains 2-D array of data so you will have to use just first row for x, second row for y, third row for z.
+# It contains 2-D array of data so you will have to use just first, second and third column of the data.
+# Given data is tracking of circle so first find out which column belongs to x and which one is for y and z.
 # if it not work out let me know!
 ```
 
