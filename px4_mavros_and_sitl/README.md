@@ -12,3 +12,18 @@ You need to write a high-level controller using this topic in [mavros](https://d
 ![alt text](https://raw.githubusercontent.com/AerialRobotics-IITK/practice/master/px4_mavros_and_sitl/a1.png?raw=true )
 
 * Note that if find any difficluties in [Gazebo](https://dev.px4.io/en/simulation/ros_interface.html) then try with [jmavsim](https://dev.px4.io/en/simulation/jmavsim.html)
+
+
+#
+#
+
+## Problem 2
+
+You all have developed a basic knowledge of control system stack of our framework (after doing problem #1). 
+So  now you have perform a trajectory tracking task using given data of the desired trajectory   ```s_des.npy``` using an *PD* controller on position
+
+ROS Topic~ ```/mavros/local_position/pose``` provide you data of UAV current location in (x,y,z).</br>
+File ```s_des.npy``` provide you desired position that needs to achieved.
+So apply an PD controller on these things and generate ```attitude setpoints``` and this will do the this task!
+
+###### Note: These files   [mc_pos_control](https://github.com/AerialRobotics-IITK/Firmware/blob/master/src/modules/mc_pos_control/mc_pos_control_main.cpp#L260) and [this](https://github.com/harshsinh/warehouse-quad/blob/master/controller/src/controller.cpp) and File ```mc_pos_control_main.cpp``` can help if you want!
