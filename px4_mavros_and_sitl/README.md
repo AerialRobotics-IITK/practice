@@ -26,4 +26,10 @@ ROS Topic~ ```/mavros/local_position/pose``` provide you data of UAV current loc
 File ```s_des.npy``` provide you desired position that needs to achieved.
 So apply an PD controller on these things and generate ```attitude setpoints``` and this will do the this task!
 
+```python
+# s_des.npy need to be read by a python script 
+# It contains 2-D array of data so you will have to use just first row for x, second row for y, third row for z.
+# if it not work out let me know!
+```
+
 ###### Note: These files   [mc_pos_control](https://github.com/AerialRobotics-IITK/Firmware/blob/master/src/modules/mc_pos_control/mc_pos_control_main.cpp#L260) and [this](https://github.com/harshsinh/warehouse-quad/blob/master/controller/src/controller.cpp) and File ```mc_pos_control_main.cpp``` can help if you want!
